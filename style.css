@@ -70,8 +70,8 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
+    font-size: 1.0rem;
+    color: rgb(255, 253, 253);
     cursor: pointer;
     transition: 0.2s;
 }
