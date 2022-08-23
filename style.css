@@ -15,6 +15,9 @@ body{
 
 }
 
+topnav{
+    background-color: linear-gradient(#231F20, #ffffff);
+}
 h2,.white{
     color: #fff;
 }
