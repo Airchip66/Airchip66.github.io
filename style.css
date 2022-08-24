@@ -13,15 +13,43 @@ body{
     background-color: #000000;
     color: #7A7C80;
 }
-/*topnav*/
-topnav{
-    background-color: linear-gradient(#231F20, #ffffff);
-}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+}
+/*display: block;*/
+li a{
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    colour: #666;
+}
+/* animations / utilities */
+li a:hover{
+    background-color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.active {
+    background-color: #04AA6D;
+}    
 h2,.white{
     color: #fff;
 }
-
+/*display: block;*/
 a{
     color: #7A7C80;
     text-decoration: none;
