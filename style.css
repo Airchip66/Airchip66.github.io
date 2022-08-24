@@ -14,9 +14,11 @@ body{
     color: #7A7C80;
 }
 .navbar{
+    position: fixed;
+    top: 0;
     width: 100%;
     border: 2px solid #000000;
-    background-color: #262626;
+    background-color: #000000;
 }
 /*display: block;*/
 .navbar a{
