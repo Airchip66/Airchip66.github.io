@@ -38,7 +38,7 @@ body{
     transition: 0.2s;
 }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 300px){
     .navbar a{
         float: none;
         display: block;
@@ -64,11 +64,15 @@ html{
     font-size: 1.5rem;
     padding: 1vh;
     color: #7A7C80;;
-
 }
+/* animations / utilities */
 #section-1 a:hover{
+    cursor: pointer;
+    transition: 0.2s;
     font-size: 1.8rem;
 }
+/*display: block;*/
+
 /* section 2 */
 #section-2{
     height: 500px;
@@ -76,7 +80,7 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: blueviolet;
+    background-color: #000000;
 }
 #section-2 h2{
     padding-top: 15vh;
@@ -85,6 +89,14 @@ html{
     font-size: 2.8rem; 
     padding-bottom: 0;
 }
+#section-2 p{
+    font-size: 1.4rem;
+}
+#section-2 a{
+    font-size:1.4rem ;
+}
+/*display: block;*/
+
 /* section 3 */
 #section-3{
     height: 500px;
@@ -110,79 +122,119 @@ html{
     color: #76aadf;
     text-decoration: none;
 }
-h2,.white{
-    color: #fff;
+/* animations / utilities */
+#section-3 a:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1.6rem;
 }
 
-
-
-
-
-
-
-
+#section-3 p{
+    font-size: 1.4rem;
+}
 /*display: block;*/
 
-/* section 1 */
-.section-1{
-    padding-top: 40vh;
+/* section 4 */
+#section-4{
+    height: 500px;
     text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+    background-color: #000000;
 }
-
-.section-1 p{
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin:0;
+#section-4 h2{
+    padding-top: 15vh;
+    padding-bottom: 0;
+    font-size: 2.8rem;
+    text-align: center;
+    text-decoration: none;
 }
-
-.section-1 h2{
-    font-size: 1.7rem;
-    margin-bottom: 10px;
-}
-
-.section-1 a{
-    font-size: 1.5rem;
-    padding: 10px;
-}
-/* section 2 */
-.section-2{
-    padding-top: 10vh;
-    width: 70%;
-}
-
-.section-2 h2{
-    font-size: 1.7rem;
-    margin-bottom: 10px;
-}
-
-.section-2 p{
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin:0;
-}
-
-.section-2 a{
-    /*display: block;*/
+#section-4 a{
+     /*display: block;*/
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
     color: #76aadf;
+    text-decoration: none;
+}
+#section-4 p{
+    font-size: 1.4rem;
 }
 /* animations / utilities */
-.section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
+#section-4 a:hover{
     cursor: pointer;
     transition: 0.2s;
+    font-size: 1.6rem;
 }
+/*display: block;*/
 
-.section-1 a:hover{
-    color: #fff;
+/* section 5*/
+#section-5{
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+    background-color: #000000;
+}
+#section-5 h2{
+    padding-top: 15vh;
+    padding-bottom: 0;
+    font-size: 2.8rem;
+    text-align: center;
+    text-decoration: none;
+}
+#section-5 a{
+     /*display: block;*/
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+    color: #76aadf;
+    text-decoration: none;
+}
+#section-5 p{
+    font-size: 1.4rem;
+}
+/* animations / utilities */
+#section-5 a:hover{
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
+    font-size: 1.6rem;
+}
+/*display: block;*/
+
+/* section 6 */
+#section-6{
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+    background-color: #000000;
+}
+#section-6 h2{
+    padding-top: 15vh;
+    padding-bottom: 0;
+    font-size: 2.8rem;
+    text-align: center;
+    text-decoration: none;
+}
+#section-6 p{
+    font-size: 1.4rem;
+}
+/* section 7 */
+#section-7 p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
+h2,.white{
+    color: #fff;
+}
 .white:hover{
     position: relative;
     padding-left: 10px;
