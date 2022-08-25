@@ -37,6 +37,7 @@ body{
     cursor: pointer;
     transition: 0.2s;
 }
+}
 @media screen and (max-width: 500px){
     .navbar a{
         float: none;
@@ -45,9 +46,80 @@ body{
         text-align: left;
     }
 }
+html{
+    scroll-behavior: smooth;
+}
+/*display: block;*/
+
+/* section 1 */
+#section-1{
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+}
+#section-1 a{
+    font-size: 1.5rem;
+    padding: 1vh;
+    color: #7A7C80;;
+
+}
+#section-1 a:hover{
+    font-size: 1.8rem;
+}
+/* section 2 */
+#section-2{
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+    background-color: blueviolet;
+}
+#section-2 h2{
+    padding-top: 15vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.8rem; 
+    padding-bottom: 0;
+}
+/* section 3 */
+#section-3{
+    height: 500px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+    background-color: #000000;
+}
+#section-3 h2{
+    padding-top: 15vh;
+    padding-bottom: 0;
+    font-size: 2.8rem;
+    text-align: center;
+    text-decoration: none;
+}
+#section-3 a{
+     /*display: block;*/
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+    color: #76aadf;
+    text-decoration: none;
+}
 h2,.white{
     color: #fff;
 }
+
+
+
+
+
+
+
+
 /*display: block;*/
 
 /* section 1 */
