@@ -54,6 +54,7 @@ html{
 /* section 1 */
 #section-1{
     height: 500px;
+    font-size: 2.0rem;
     text-align: center;
     text-decoration: none;
     padding-top: 28vh;
