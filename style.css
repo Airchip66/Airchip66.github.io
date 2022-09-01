@@ -63,10 +63,16 @@ html{
     padding-top: 28vh;
     padding-bottom: 20vh;
 }
+#section-1 p{
+    color: #bfbfbf
+}
 #section-1 a{
     font-size: 1.5rem;
     padding: 1vh;
-    color: #7A7C80;;
+    color: #ffffff;;
+}
+#section-1 h2{
+    padding-bottom: 1px;
 }
 /* animations / utilities */
 #section-1 a:hover{
@@ -83,7 +89,6 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: #000000;
 }
 #section-2 h2{
     padding-top: 15vh;
@@ -94,6 +99,7 @@ html{
 }
 #section-2 p{
     font-size: 1.4rem;
+    color: #fff;
 }
 #section-2 a{
     font-size:1.4rem ;
@@ -107,7 +113,6 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: #000000;
 }
 #section-3 h2{
     padding-top: 15vh;
@@ -122,7 +127,7 @@ html{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
-    color: #76aadf;
+    color: #acccec;
     text-decoration: none;
 }
 /* animations / utilities */
@@ -134,6 +139,7 @@ html{
 
 #section-3 p{
     font-size: 1.4rem;
+    color: #fff;
 }
 /*display: block;*/
 
@@ -144,7 +150,6 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: #000000;
 }
 #section-4 h2{
     padding-top: 15vh;
@@ -159,11 +164,12 @@ html{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
-    color: #76aadf;
+    color: #acccec;
     text-decoration: none;
 }
 #section-4 p{
     font-size: 1.4rem;
+    color: #d9d9d9;
 }
 /* animations / utilities */
 #section-4 a:hover{
@@ -180,7 +186,6 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: #000000;
 }
 #section-5 h2{
     padding-top: 15vh;
@@ -195,11 +200,12 @@ html{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
-    color: #76aadf;
+    color: #acccec;
     text-decoration: none;
 }
 #section-5 p{
     font-size: 1.4rem;
+    color: #fff;
 }
 /* animations / utilities */
 #section-5 a:hover{
@@ -216,7 +222,6 @@ html{
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
-    background-color: #000000;
 }
 #section-6 h2{
     padding-top: 15vh;
@@ -227,12 +232,14 @@ html{
 }
 #section-6 p{
     font-size: 1.4rem;
+    color: #fff;
 }
 /* section 7 */
 #section-7 p{
     text-decoration: none;
     text-align: center;
     font-size: 1.3rem;
+    color: #ffffff;
 }
 
 h2,.white{
