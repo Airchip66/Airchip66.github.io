@@ -58,7 +58,6 @@ body{
     top: 0px;
     width: 100%;
     height: 8vh;
-    border: 2px solid #000000;
     background-color: #000000;
     float: left;
     text-align: left;
@@ -137,12 +136,12 @@ html{
     transition: 0.2s;
     font-size: 1.8rem;
 }
+}
 /*display: block;*/
 
 /* section 2 */
 #section-2{
     height: 500px;
-    text-align: center;
     text-decoration: none;
     padding-top: 28vh;
     padding-bottom: 20vh;
@@ -153,13 +152,19 @@ html{
     text-decoration: none;
     font-size: 2.8rem; 
     padding-bottom: 0;
+    text-align: center;
+
 }
 #section-2 p{
     font-size: 1.4rem;
     color: #fff;
+    text-align: center;
+
 }
 #section-2 a{
     font-size:1.4rem ;
+    text-align: center;
+
 }
 /*display: block;*/
 
@@ -289,6 +294,11 @@ html{
 }
 #section-6 p{
     font-size: 1.4rem;
+    color: #fff;
+}
+.foot p{
+    text-align: center;
+    font-size: 15px;
     color: #fff;
 }
 h2,.white{
