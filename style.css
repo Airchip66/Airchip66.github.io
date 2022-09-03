@@ -168,6 +168,29 @@ html{
 }
 /*display: block;*/
 
+/* section 2a */
+#section-2a{
+    height: 500px;
+    text-decoration: none;
+    padding-top: 28vh;
+    padding-bottom: 20vh;
+}
+#section-2a h2{
+    padding-top: 15vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.8rem; 
+    padding-bottom: 0;
+    text-align: center;
+
+}
+#section-2a p{
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+}
+/*display: block;*/
+
 /* section 3 */
 #section-3{
     height: 500px;
